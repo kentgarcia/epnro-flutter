@@ -1,2 +1,3 @@
-include ':sdk', ':videoparallel', ':benchmark', ':videosequential'
-rootProject.name='ultimateAlpr'
+include ':app', ':OpenALPR'
+
+project(':OpenALPR').projectDir = new File('../../app')
